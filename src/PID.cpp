@@ -46,7 +46,7 @@ void PID::UpdateError(double cte) {
 }
 
 double PID::TotalError() {
-	if(times % 1000 ==0){
+	if(times % 100 ==0){
 		cout << acc_error <<endl;
 	}
 
